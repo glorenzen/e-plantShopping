@@ -4,6 +4,7 @@ import CartItem from "./CartItem";
 function ProductList() {
   const [showCart, setShowCart] = useState(false);
   const [showPlants, setShowPlants] = useState(false);
+  const [addedToCart, setAddedToCart] = useState({});
 
   const plantsArray = [
     {
